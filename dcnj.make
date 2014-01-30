@@ -8,4 +8,5 @@ projects[] = drupal
 projects[] = views
 projects[] = features
 projects[] = strongarm
+projects[] = devel
 

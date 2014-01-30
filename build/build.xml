@@ -100,7 +100,7 @@ Drush Make and Simpletest support has been sponsored by [DBC](http://www.dbc.dk/
 </a>
 -->
 
-<project name="dcnj-ci-demo" default="build">
+<project name="phing-drupal" default="build" phingVersion="2.4.11">
 
 <!-- ## Main targets -->
 
@@ -113,10 +113,8 @@ This is the default build target.
 
 Do not run `docs` for now. Generating documentation eats up memory and build
 time and is largely obsolete when using GitHub. -->
-  <target name="build" depends="init,
-                                clean,
-                                verify,
-                                analyze" />
+  <!-- <target name="build" depends="init, clean, verify, analyze" /> -->
+  <target name="build" depends="init" />
 
 <!-- ### Verify code consistency
 

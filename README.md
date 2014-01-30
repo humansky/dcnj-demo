@@ -1,4 +1,4 @@
-DrupalCamp NJ Continuous Integration Demo
+DrupalCamp NJ CI Demo
 =========================================
 
 ### Quick start

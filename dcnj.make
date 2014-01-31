@@ -5,6 +5,4 @@ api = 2
 projects[] = drupal
 
 ; Drupal Install Profile
-projects[dcnj][type] = "profile"
-projects[dcnj][download][type] = "git"
-projects[dcnj][download][url] = "https://github.com/humansky/dcnj-drupal-distro.git"
+projects[panopoly][type] = "profile"

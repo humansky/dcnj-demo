@@ -4,9 +4,7 @@ api = 2
 ; Drupal Core
 projects[] = drupal
 
-; Drupal Contrib Modules
-projects[] = views
-projects[] = features
-projects[] = strongarm
-projects[] = devel
-
+; Drupal Install Profile
+projects[dcnj][type] = "profile"
+projects[dcnj][download][type] = "git"
+projects[dcnj][download][url] = "https://github.com/humansky/dcnj-drupal-distro.git"

@@ -114,7 +114,7 @@ This is the default build target.
 Do not run `docs` for now. Generating documentation eats up memory and build
 time and is largely obsolete when using GitHub. -->
   <!-- <target name="build" depends="init, clean, verify, analyze" /> -->
-  <target name="build" depends="init" />
+  <target name="build" depends="init, clean, verify, analyze" />
 
 <!-- ### Verify code consistency
 
